@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("FLMS"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0f5db1c57e224e83865737edee2a76fa34a829b"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2601e0069cad8a0169b25572f453129da42e773"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("FLMS"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("FLMS"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

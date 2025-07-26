@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|d:\\vin vin files\\personal projects\\programs\\desktopapp\\flms\\loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|solutionrelative:loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|d:\\vin vin files\\personal projects\\programs\\desktopapp\\flms\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|d:\\vin vin files\\personal projects\\programs\\desktopapp\\flms\\main_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|solutionrelative:main_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|d:\\vin vin files\\personal projects\\programs\\desktopapp\\flms\\main_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|solutionrelative:main_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|d:\\vin vin files\\personal projects\\programs\\desktopapp\\flms\\loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|solutionrelative:loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +31,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-26T09:10:22.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main_Form.vb",
+              "DocumentMoniker": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\Main_Form.vb",
+              "RelativeDocumentMoniker": "Main_Form.vb",
+              "ToolTip": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\Main_Form.vb",
+              "RelativeToolTip": "Main_Form.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-26T08:59:57.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LoginPage.vb [Design]",
               "DocumentMoniker": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\LoginPage.vb",
               "RelativeDocumentMoniker": "LoginPage.vb",
@@ -34,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Main_Form.vb [Design]",
               "DocumentMoniker": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\Main_Form.vb",
               "RelativeDocumentMoniker": "Main_Form.vb",

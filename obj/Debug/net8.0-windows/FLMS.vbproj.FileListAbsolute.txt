@@ -14,3 +14,6 @@ D:\Vin vin files\Personal Projects\Programs\DesktopApp\FLMS\obj\Debug\net8.0-win
 D:\Vin vin files\Personal Projects\Programs\DesktopApp\FLMS\obj\Debug\net8.0-windows\FLMS.genruntimeconfig.cache
 D:\Vin vin files\Personal Projects\Programs\DesktopApp\FLMS\obj\Debug\net8.0-windows\ref\FLMS.dll
 D:\Vin vin files\Personal Projects\Programs\DesktopApp\FLMS\obj\Debug\net8.0-windows\FLMS.Main_Form.resources
+D:\Vin vin files\Personal Projects\Programs\DesktopApp\FLMS\obj\Debug\net8.0-windows\FLMS.LoginPage.resources
+D:\Vin vin files\Personal Projects\Programs\DesktopApp\FLMS\obj\Debug\net8.0-windows\FLMS.Resources.resources
+D:\Vin vin files\Personal Projects\Programs\DesktopApp\FLMS\obj\Debug\net8.0-windows\FLMS.sourcelink.json
