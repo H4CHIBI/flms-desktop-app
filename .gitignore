@@ -1,0 +1,14 @@
+﻿# Visual Studio and VS Code specific ignore patterns
+.vs/
+*.vsidx
+*.suo
+*.user
+*.log
+*.pdb
+*.obj
+[Bb]in/
+[Oo]bj/
+
+# Operating System specific ignore patterns (good practice)
+.DS_Store # macOS specific
+Thumbs.db # Windows thumbnail cache

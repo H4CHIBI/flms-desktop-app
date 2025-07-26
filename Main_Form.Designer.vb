@@ -22,16 +22,34 @@ Partial Class Main_Form
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        TableLayoutPanel1 = New TableLayoutPanel()
         SuspendLayout()
+        ' 
+        ' TableLayoutPanel1
+        ' 
+        TableLayoutPanel1.Anchor = AnchorStyles.None
+        TableLayoutPanel1.ColumnCount = 2
+        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 60.50328F))
+        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 39.49672F))
+        TableLayoutPanel1.Location = New Point(0, 0)
+        TableLayoutPanel1.Name = "TableLayoutPanel1"
+        TableLayoutPanel1.RowCount = 1
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
+        TableLayoutPanel1.Size = New Size(914, 538)
+        TableLayoutPanel1.TabIndex = 1
         ' 
         ' Main_Form
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(915, 538)
+        Controls.Add(TableLayoutPanel1)
         Name = "Main_Form"
         Text = "Main"
         ResumeLayout(False)
     End Sub
+
+    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
 
 End Class
