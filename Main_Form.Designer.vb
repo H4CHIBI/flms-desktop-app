@@ -22,34 +22,34 @@ Partial Class Main_Form
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        TableLayoutPanel1 = New TableLayoutPanel()
+        MaintableLayout = New TableLayoutPanel()
         SuspendLayout()
         ' 
-        ' TableLayoutPanel1
+        ' MaintableLayout
         ' 
-        TableLayoutPanel1.Anchor = AnchorStyles.None
-        TableLayoutPanel1.ColumnCount = 2
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 60.50328F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 39.49672F))
-        TableLayoutPanel1.Location = New Point(0, 0)
-        TableLayoutPanel1.Name = "TableLayoutPanel1"
-        TableLayoutPanel1.RowCount = 1
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
-        TableLayoutPanel1.Size = New Size(914, 538)
-        TableLayoutPanel1.TabIndex = 1
+        MaintableLayout.Anchor = AnchorStyles.None
+        MaintableLayout.ColumnCount = 2
+        MaintableLayout.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 60.50328F))
+        MaintableLayout.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 39.49672F))
+        MaintableLayout.Location = New Point(0, 0)
+        MaintableLayout.Name = "MaintableLayout"
+        MaintableLayout.RowCount = 1
+        MaintableLayout.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
+        MaintableLayout.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
+        MaintableLayout.Size = New Size(914, 538)
+        MaintableLayout.TabIndex = 1
         ' 
         ' Main_Form
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(915, 538)
-        Controls.Add(TableLayoutPanel1)
+        Controls.Add(MaintableLayout)
         Name = "Main_Form"
         Text = "Main"
         ResumeLayout(False)
     End Sub
 
-    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+    Friend WithEvents MaintableLayout As TableLayoutPanel
 
 End Class
