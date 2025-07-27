@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|d:\\vin vin files\\personal projects\\programs\\desktopapp\\flms\\loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|solutionrelative:loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|d:\\vin vin files\\personal projects\\programs\\desktopapp\\flms\\loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|solutionrelative:loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|d:\\vin vin files\\personal projects\\programs\\desktopapp\\flms\\signuppage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|solutionrelative:signuppage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|d:\\vin vin files\\personal projects\\programs\\desktopapp\\flms\\main_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|solutionrelative:main_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|d:\\vin vin files\\personal projects\\programs\\desktopapp\\flms\\adminhome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|solutionrelative:adminhome.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|d:\\vin vin files\\personal projects\\programs\\desktopapp\\flms\\main_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|solutionrelative:main_form.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|d:\\vin vin files\\personal projects\\programs\\desktopapp\\flms\\loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|solutionrelative:loginpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|d:\\vin vin files\\personal projects\\programs\\desktopapp\\flms\\globalmodules.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3703378E-E755-436C-BF9A-738B05ECFD03}|FLMS.vbproj|solutionrelative:globalmodules.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,36 +38,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "SignupPage.vb [Design]",
+              "DocumentMoniker": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\SignupPage.vb",
+              "RelativeDocumentMoniker": "SignupPage.vb",
+              "ToolTip": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\SignupPage.vb [Design]",
+              "RelativeToolTip": "SignupPage.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-27T11:00:38.359Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminHome.vb [Design]",
+              "DocumentMoniker": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\AdminHome.vb",
+              "RelativeDocumentMoniker": "AdminHome.vb",
+              "ToolTip": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\AdminHome.vb [Design]",
+              "RelativeToolTip": "AdminHome.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-27T10:59:54.661Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.vb",
+              "DocumentMoniker": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\LoginPage.vb",
+              "RelativeDocumentMoniker": "LoginPage.vb",
+              "ToolTip": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\LoginPage.vb*",
+              "RelativeToolTip": "LoginPage.vb*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-27T10:59:22.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Globalmodules.vb",
+              "DocumentMoniker": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\Globalmodules.vb",
+              "RelativeDocumentMoniker": "Globalmodules.vb",
+              "ToolTip": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\Globalmodules.vb",
+              "RelativeToolTip": "Globalmodules.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-07-27T10:41:21.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Main_Form.vb",
               "DocumentMoniker": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\Main_Form.vb",
               "RelativeDocumentMoniker": "Main_Form.vb",
               "ToolTip": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\Main_Form.vb",
               "RelativeToolTip": "Main_Form.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-07-26T08:59:57.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LoginPage.vb [Design]",
               "DocumentMoniker": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\LoginPage.vb",
               "RelativeDocumentMoniker": "LoginPage.vb",
-              "ToolTip": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\LoginPage.vb [Design]",
-              "RelativeToolTip": "LoginPage.vb [Design]",
+              "ToolTip": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\LoginPage.vb [Design]*",
+              "RelativeToolTip": "LoginPage.vb [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-07-26T05:19:40.513Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Main_Form.vb [Design]",
               "DocumentMoniker": "D:\\Vin vin files\\Personal Projects\\Programs\\DesktopApp\\FLMS\\Main_Form.vb",
               "RelativeDocumentMoniker": "Main_Form.vb",

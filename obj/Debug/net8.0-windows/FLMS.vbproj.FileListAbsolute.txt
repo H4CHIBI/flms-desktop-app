@@ -17,3 +17,5 @@ D:\Vin vin files\Personal Projects\Programs\DesktopApp\FLMS\obj\Debug\net8.0-win
 D:\Vin vin files\Personal Projects\Programs\DesktopApp\FLMS\obj\Debug\net8.0-windows\FLMS.LoginPage.resources
 D:\Vin vin files\Personal Projects\Programs\DesktopApp\FLMS\obj\Debug\net8.0-windows\FLMS.Resources.resources
 D:\Vin vin files\Personal Projects\Programs\DesktopApp\FLMS\obj\Debug\net8.0-windows\FLMS.sourcelink.json
+D:\Vin vin files\Personal Projects\Programs\DesktopApp\FLMS\obj\Debug\net8.0-windows\FLMS.AdminHome.resources
+D:\Vin vin files\Personal Projects\Programs\DesktopApp\FLMS\obj\Debug\net8.0-windows\FLMS.SignupPage.resources
