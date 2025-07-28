@@ -24,15 +24,15 @@ Partial Class LoginPage
     Private Sub InitializeComponent()
         TableLayoutPanelRoot = New TableLayoutPanel()
         Panel1 = New Panel()
-        Panel3 = New Panel()
-        Label7 = New Label()
-        PictureBox1 = New PictureBox()
-        PictureBox2 = New PictureBox()
+        PictureBox3 = New PictureBox()
         Panel2 = New Panel()
+        Label8 = New Label()
+        Label7 = New Label()
+        Label4 = New Label()
+        PictureBox1 = New PictureBox()
         Label6 = New Label()
-        Label5 = New Label()
         CreateAccLabel = New Label()
-        Button1 = New Button()
+        LoginBttn = New Button()
         Label3 = New Label()
         TextBox2 = New TextBox()
         Label2 = New Label()
@@ -40,15 +40,15 @@ Partial Class LoginPage
         Label1 = New Label()
         TableLayoutPanelRoot.SuspendLayout()
         Panel1.SuspendLayout()
-        Panel3.SuspendLayout()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         Panel2.SuspendLayout()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' TableLayoutPanelRoot
         ' 
         TableLayoutPanelRoot.Anchor = AnchorStyles.None
+        TableLayoutPanelRoot.BackColor = Color.CornflowerBlue
         TableLayoutPanelRoot.ColumnCount = 2
         TableLayoutPanelRoot.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 60.50328F))
         TableLayoutPanelRoot.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 39.49672F))
@@ -64,66 +64,35 @@ Partial Class LoginPage
         ' 
         ' Panel1
         ' 
-        Panel1.BackColor = SystemColors.ButtonHighlight
-        Panel1.Controls.Add(Panel3)
-        Panel1.Controls.Add(PictureBox2)
+        Panel1.BackColor = Color.White
+        Panel1.Controls.Add(PictureBox3)
         Panel1.Font = New Font("Microsoft Sans Serif", 8.25F)
         Panel1.Location = New Point(3, 3)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(547, 532)
         Panel1.TabIndex = 0
         ' 
-        ' Panel3
+        ' PictureBox3
         ' 
-        Panel3.BackColor = Color.DodgerBlue
-        Panel3.Controls.Add(Label7)
-        Panel3.Controls.Add(PictureBox1)
-        Panel3.Dock = DockStyle.Top
-        Panel3.Location = New Point(0, 0)
-        Panel3.Name = "Panel3"
-        Panel3.Size = New Size(547, 85)
-        Panel3.TabIndex = 1
-        ' 
-        ' Label7
-        ' 
-        Label7.AutoSize = True
-        Label7.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label7.ForeColor = SystemColors.ButtonHighlight
-        Label7.Location = New Point(101, 30)
-        Label7.Name = "Label7"
-        Label7.RightToLeft = RightToLeft.No
-        Label7.Size = New Size(416, 25)
-        Label7.TabIndex = 0
-        Label7.Text = "College of Information Technology Education"
-        ' 
-        ' PictureBox1
-        ' 
-        PictureBox1.Image = My.Resources.Resources.CITELogo
-        PictureBox1.Location = New Point(24, 6)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(71, 76)
-        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox1.TabIndex = 0
-        PictureBox1.TabStop = False
-        ' 
-        ' PictureBox2
-        ' 
-        PictureBox2.Image = My.Resources.Resources.golden_2_1024x721
-        PictureBox2.Location = New Point(-27, 44)
-        PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(651, 541)
-        PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
-        PictureBox2.TabIndex = 2
-        PictureBox2.TabStop = False
+        PictureBox3.Image = My.Resources.Resources.golden_2_1024x721
+        PictureBox3.Location = New Point(-138, -126)
+        PictureBox3.Name = "PictureBox3"
+        PictureBox3.Size = New Size(806, 804)
+        PictureBox3.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox3.TabIndex = 1
+        PictureBox3.TabStop = False
         ' 
         ' Panel2
         ' 
         Panel2.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
-        Panel2.BackColor = SystemColors.MenuHighlight
+        Panel2.BackColor = Color.CornflowerBlue
+        Panel2.Controls.Add(Label8)
+        Panel2.Controls.Add(Label7)
+        Panel2.Controls.Add(Label4)
+        Panel2.Controls.Add(PictureBox1)
         Panel2.Controls.Add(Label6)
-        Panel2.Controls.Add(Label5)
         Panel2.Controls.Add(CreateAccLabel)
-        Panel2.Controls.Add(Button1)
+        Panel2.Controls.Add(LoginBttn)
         Panel2.Controls.Add(Label3)
         Panel2.Controls.Add(TextBox2)
         Panel2.Controls.Add(Label2)
@@ -135,50 +104,80 @@ Partial Class LoginPage
         Panel2.Size = New Size(355, 532)
         Panel2.TabIndex = 1
         ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label8.Location = New Point(78, 74)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(69, 17)
+        Label8.TabIndex = 11
+        Label8.Text = "Education"
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label7.Location = New Point(78, 57)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(157, 17)
+        Label7.TabIndex = 10
+        Label7.Text = "Information Technology"
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label4.Location = New Point(78, 40)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(71, 17)
+        Label4.TabIndex = 9
+        Label4.Text = "College of"
+        ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = My.Resources.Resources.CITELogo
+        PictureBox1.Location = New Point(22, 40)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(50, 48)
+        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox1.TabIndex = 3
+        PictureBox1.TabStop = False
+        ' 
         ' Label6
         ' 
         Label6.AutoSize = True
         Label6.Font = New Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label6.Location = New Point(22, 139)
+        Label6.Location = New Point(20, 139)
         Label6.Name = "Label6"
         Label6.Size = New Size(260, 25)
         Label6.TabIndex = 8
         Label6.Text = "Login to access your account!"
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label5.Location = New Point(199, 462)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(133, 21)
-        Label5.TabIndex = 7
-        Label5.Text = "Forgot Password?"
         ' 
         ' CreateAccLabel
         ' 
         CreateAccLabel.AutoSize = True
         CreateAccLabel.Cursor = Cursors.Hand
         CreateAccLabel.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        CreateAccLabel.Location = New Point(22, 462)
+        CreateAccLabel.Location = New Point(55, 463)
         CreateAccLabel.Name = "CreateAccLabel"
-        CreateAccLabel.Size = New Size(122, 21)
+        CreateAccLabel.Size = New Size(265, 21)
         CreateAccLabel.TabIndex = 6
-        CreateAccLabel.Text = "Create Account?"
+        CreateAccLabel.Text = "Don't have an account?   Sign in now"
         ' 
-        ' Button1
+        ' LoginBttn
         ' 
-        Button1.BackColor = Color.DodgerBlue
-        Button1.Cursor = Cursors.Hand
-        Button1.FlatStyle = FlatStyle.Flat
-        Button1.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button1.ForeColor = SystemColors.ButtonFace
-        Button1.Location = New Point(22, 407)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(312, 42)
-        Button1.TabIndex = 5
-        Button1.Text = "LOGIN"
-        Button1.UseVisualStyleBackColor = False
+        LoginBttn.BackColor = Color.FromArgb(CByte(255), CByte(128), CByte(0))
+        LoginBttn.Cursor = Cursors.Hand
+        LoginBttn.FlatStyle = FlatStyle.Flat
+        LoginBttn.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        LoginBttn.ForeColor = SystemColors.ButtonFace
+        LoginBttn.Location = New Point(22, 407)
+        LoginBttn.Name = "LoginBttn"
+        LoginBttn.Size = New Size(312, 42)
+        LoginBttn.TabIndex = 5
+        LoginBttn.Text = "LOGIN"
+        LoginBttn.UseVisualStyleBackColor = False
         ' 
         ' Label3
         ' 
@@ -240,12 +239,10 @@ Partial Class LoginPage
         Text = "LoginPage"
         TableLayoutPanelRoot.ResumeLayout(False)
         Panel1.ResumeLayout(False)
-        Panel3.ResumeLayout(False)
-        Panel3.PerformLayout()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         Panel2.ResumeLayout(False)
         Panel2.PerformLayout()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
@@ -255,14 +252,14 @@ Partial Class LoginPage
     Friend WithEvents Label2 As Label
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label5 As Label
     Friend WithEvents CreateAccLabel As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents LoginBttn As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label6 As Label
+    Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
+    Friend WithEvents Label4 As Label
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Panel3 As Panel
-    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
 End Class

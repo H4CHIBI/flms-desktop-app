@@ -10,6 +10,9 @@
     <Compile Update="Main_Form.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SideBarMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="SignupPage.vb">
       <SubType>Form</SubType>
     </Compile>
