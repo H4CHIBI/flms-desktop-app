@@ -248,11 +248,11 @@ Partial Class SignupPage
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.MidnightBlue
-        Label2.Location = New Point(159, 75)
+        Label2.Location = New Point(164, 75)
         Label2.Name = "Label2"
-        Label2.Size = New Size(190, 21)
+        Label2.Size = New Size(187, 21)
         Label2.TabIndex = 1
-        Label2.Text = "Let's Sign In Your Account"
+        Label2.Text = "Let's Create Your Account"
         ' 
         ' Label1
         ' 
